@@ -10,7 +10,7 @@ namespace FirstMod
     {
         private const string modGUID = "Nono.FirstNonoMod";
         private const string modName = "First Mod";
-        private const string modVersion = "1.0.0.0";
+        private const string modVersion = "1.0.0.1";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
@@ -26,7 +26,7 @@ namespace FirstMod
 
             mls = BepInEx.Logging.Logger.CreateLogSource(modGUID);
 
-            mls.LogInfo("Do not press K ;)");
+            mls.LogInfo("Do not press K hehehe ;)");
 
             harmony.PatchAll(typeof(ClassTest));
             harmony.PatchAll(typeof(LcInputStuff));

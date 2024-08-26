@@ -12,9 +12,10 @@ namespace FirstMod.Patches
         [HarmonyPatch("Update")]
         [HarmonyPostfix]
 
-        static void killButton(PlayerControllerB __instance) 
+        // Remove the bind while on the terminal.
+        static void killButton(PlayerControllerB __instance, bool __inTerminalMenu) 
         {
-            if (lcInputStuff.DeathKey.triggered) 
+            if (lcInputStuff.DeathKey.triggered || !__inTerminalMenu)
             {
                 __instance.KillPlayer(Vector3.zero);
             }
