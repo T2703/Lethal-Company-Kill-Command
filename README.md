@@ -5,6 +5,7 @@ _________________________
 Technologies:
 - C#
 - Unity
+- BepInEx (THIS IS REQUIRED FOR THE MOD TO WORK PROPERLY)
 - LethalCompanyInputUtils (THIS IS REQUIRED FOR THE MOD TO WORK PROPERLY)
 _________________________
 
