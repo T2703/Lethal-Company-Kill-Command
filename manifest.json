@@ -1,0 +1,10 @@
+{
+    "name": "KillCommand",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/T2703/Lethal-Company-Kill-Command",
+    "description": "A mod that will let you allow your character to die by pressing K.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Rune580-LethalCompany_InputUtils-0.7.7"
+    ]
+}
