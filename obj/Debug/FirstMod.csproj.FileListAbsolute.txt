@@ -110,5 +110,4 @@ C:\Users\Mr. Nono\source\repos\FirstMod\FirstMod\obj\Debug\FirstMod.csproj.CoreC
 C:\Users\Mr. Nono\source\repos\FirstMod\FirstMod\obj\Debug\FirstMod.csproj.Up2Date
 C:\Users\Mr. Nono\source\repos\FirstMod\FirstMod\obj\Debug\FirstMod.dll
 C:\Users\Mr. Nono\source\repos\FirstMod\FirstMod\obj\Debug\FirstMod.pdb
-C:\Users\Mr. Nono\source\repos\FirstMod\FirstMod\bin\Debug\LethalCompanyInputUtils.dll
 C:\Users\Mr. Nono\source\repos\FirstMod\FirstMod\bin\Debug\LethalCompanyInputUtils.pdb

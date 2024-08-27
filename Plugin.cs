@@ -16,7 +16,8 @@ namespace FirstMod
 
         private static ClassTest Instance;
 
-        internal ManualLogSource mls; 
+
+        internal new static ManualLogSource Logger;
         void Awake()
         {
             if (Instance == null)
@@ -24,9 +25,9 @@ namespace FirstMod
                 Instance = this; 
             }
 
-            mls = BepInEx.Logging.Logger.CreateLogSource(modGUID);
+            Logger = base.Logger;
 
-            mls.LogInfo("Do not press K hehehe ;)");
+            Logger.LogInfo("Do not press = hehe ;)");
 
             harmony.PatchAll(typeof(ClassTest));
             harmony.PatchAll(typeof(LcInputStuff));

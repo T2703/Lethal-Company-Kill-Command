@@ -6,7 +6,7 @@ namespace FirstMod.Patches
 {
     internal class LcInputStuff : LcInputActions
     {
-        [InputAction(KeyboardControl.K, Name = "Death")]
+        [InputAction(KeyboardControl.Equals, Name = "Death")]
         public InputAction DeathKey { get; set; }
 
         public static LcInputStuff Instance = new LcInputStuff();

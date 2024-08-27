@@ -1,4 +1,5 @@
-﻿using GameNetcodeStuff;
+﻿using BepInEx;
+using GameNetcodeStuff;
 using HarmonyLib;
 using UnityEngine;
 
@@ -12,10 +13,9 @@ namespace FirstMod.Patches
         [HarmonyPatch("Update")]
         [HarmonyPostfix]
 
-        // Remove the bind while on the terminal.
-        static void killButton(PlayerControllerB __instance, bool __inTerminalMenu) 
+        static void killButton(PlayerControllerB __instance, bool ___isPlayerDead, InteractTrigger __currentTriggerInAnimationWith)
         {
-            if (lcInputStuff.DeathKey.triggered || !__inTerminalMenu)
+            if (lcInputStuff.DeathKey.triggered)
             {
                 __instance.KillPlayer(Vector3.zero);
             }
