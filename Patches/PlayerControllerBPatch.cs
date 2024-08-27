@@ -13,7 +13,7 @@ namespace FirstMod.Patches
         [HarmonyPatch("Update")]
         [HarmonyPostfix]
 
-        static void killButton(PlayerControllerB __instance, bool ___isPlayerDead, InteractTrigger __currentTriggerInAnimationWith)
+        static void killButton(PlayerControllerB __instance)
         {
             if (lcInputStuff.DeathKey.triggered)
             {
