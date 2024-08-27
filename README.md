@@ -1,5 +1,5 @@
 # Lethal Company Kill Command Mod
- A mod that will let you allow your character to die by pressing K.
+ A mod that will let you allow your character to die by pressing =.
 _________________________ 
 
 Technologies:
@@ -9,7 +9,7 @@ Technologies:
 - LethalCompanyInputUtils (THIS IS REQUIRED FOR THE MOD TO WORK PROPERLY)
 _________________________
 
-A pretty simple mod that allows your character to die by pressing K on the keyboard. It's just a mod to get me started in for making mods in Lethal Company. I wanted to create something simple so I have coded this. 
+A pretty simple mod that allows your character to die by pressing = on the keyboard. It's just a mod to get me started in for making mods in Lethal Company. I wanted to create something simple so I have coded this. 
 _________________________
 
 Video:
