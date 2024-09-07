@@ -28,7 +28,7 @@ namespace FirstMod.Patches
             else
             {
                 lcInputStuff.DeathKey.Enable();
-                if ((__instance = GameNetworkManager.Instance.localPlayerController) && lcInputStuff.DeathKey.triggered) 
+                if ((__instance == GameNetworkManager.Instance.localPlayerController) && lcInputStuff.DeathKey.triggered) 
                 {
                     __instance.KillPlayer(Vector3.zero, true, CauseOfDeath.Strangulation, deathAnimation: randomDeathChoice[randomDeathIndex]);
                     
